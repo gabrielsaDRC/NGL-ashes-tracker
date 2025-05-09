@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    background-image: url('../assets/images/background-ngl.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+} 
+
+.bg-gray-with-oppacity {
+    background: rgba(31,41,55,0.6);
+}
+
+.c-dumjqv {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.background-card-att {
+    background-color: #1e1e1e73;
+}
