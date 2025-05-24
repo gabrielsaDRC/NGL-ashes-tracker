@@ -15,7 +15,7 @@ export const Auth: React.FC<AuthProps> = () => {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'discord',
         options: {
-          redirectTo: window.location.origin,
+          redirectTo: 'https://gabrielsadrc.github.io/NGL-ashes-tracker/',
           skipBrowserRedirect: false
         }
       });

@@ -13,6 +13,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
     autoRefreshToken: true,
     detectSessionInUrl: true,
     storage: window.localStorage,
-    flowType: 'implicit'
+    flowType: 'implicit',
+    redirectTo: 'https://gabrielsadrc.github.io/NGL-ashes-tracker/'
   }
 });
