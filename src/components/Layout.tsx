@@ -120,10 +120,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       });
 
       await supabase.auth.signOut({ scope: 'global' });
-      window.location.href = '/';
     } catch (error) {
       console.error('Error during logout:', error);
-      window.location.href = '/';
     }
   };
 
